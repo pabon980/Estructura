@@ -1,41 +1,38 @@
 public class objlibro{
-    private String nombre;
-    private String autor;
-    private double precio;
 
-    public objlibro() {
+    private String Titulo;
+    private String Autor;
+    private double Precio;
+    public objlibro(){
+
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getTitulo() {
+        return Titulo;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setTitulo(String Titulo) {
+        this.Titulo = Titulo;
     }
 
     public String getAutor() {
-        return autor;
+        return Autor;
     }
 
-    public void setAutor(String autor) {
-        this.autor = autor;
+    public void setAutor(String Autor) {
+        this.Autor = Autor;
     }
 
     public double getPrecio() {
-        return precio;
+        return Precio;
     }
 
-    public void setPrecio(double precio) {
-        this.precio = precio;
+    public void setPrecio(double Precio) {
+        this.Precio = Precio;
     }
 
     
-
     
-
-
-
 
 
 
